@@ -99,6 +99,17 @@
         "instructor": "Ethan Moore",
         "isFeatured": true,
         "image": "/courses/blues.jpg"
-      }
+      },
+      {
+        "id": 11,
+        "title": "Ukulele Basics",
+        "slug": "ukulele-basics",
+        "description": "Start your musical journey with the charming sound of the ukulele. Learn the basics and play your favorite tunes.",
+        "price": 79.99,
+        "instructor": "Olivia Anderson",
+        "isFeatured": true,
+        "image": "/courses/ukulele.jpg"
+    }
+    
     ]
   }
