@@ -1,6 +1,8 @@
 import Image from "next/image";
 import HeroSection from "./components/HeroSection";
 import FeaturedCourses from "./components/FeaturedCourses";
+import Whychooseus from "./components/Whychooseus";
+import TestimonialCards from "./components/TestimonialCards";
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
     <h1 className="text-2xl text-center text-white">Vishesh Musics</h1>
     <HeroSection/>
     <FeaturedCourses/>
+    <Whychooseus/>
+    <TestimonialCards/>
     </main>
   
   );
