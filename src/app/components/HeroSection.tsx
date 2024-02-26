@@ -1,7 +1,10 @@
+'use client'
 import Link from "next/link"
 import { Spotlight } from "./ui/Spotlight"
 import { Button } from "../components/ui/moving-border";
-
+import { useScroll, useTransform } from "framer-motion";
+import React from "react";
+import { GoogleGeminiEffect } from "./ui/google-gemini-effect";
 function HeroSection() {
   return (
     <div
